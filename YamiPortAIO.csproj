@@ -7035,6 +7035,7 @@
     <Content Include="Core\Library Ports\NLog\Resources\NLog.ico" />
     <None Include="Resources\BlaueKarte.jpg.jpg" />
     <Content Include="Core\Champion Ports\Twitch\TheTwitch\Commons\ComboSystem\Combo System thoughts.txt" />
+    <Content Include="Core\TO-DO.txt" />
     <Content Include="Resources\EloSharp\aatrox_square_0.png" />
     <Content Include="Resources\EloSharp\ahri_square_0.png" />
     <Content Include="Resources\EloSharp\akali_square_0.png" />
