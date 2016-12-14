@@ -88,7 +88,7 @@
       <HintPath>..\..\AppData\Roaming\EloBuddy\Addons\Libraries\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PortAIO.Common">
-      <HintPath>..\PortAIO-Common\bin\Debug\PortAIO.Common.dll</HintPath>
+      <HintPath>..\YamiPortAIO-Common\bin\Debug\PortAIO.Common.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="SharpDX">
