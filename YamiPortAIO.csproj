@@ -7016,9 +7016,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\PortAIO.exe.config" />
+    <None Include="bin\Debug\PortAIO.vshost.exe.config" />
+    <None Include="bin\Debug\PortAIO.vshost.exe.manifest" />
+    <None Include="bin\Release\PortAIO.Common.dll.config" />
     <None Include="Resources\ElUtility\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\PortAIO.vshost.exe" />
+    <Content Include="bin\Release\DeathWalker.dll" />
+    <Content Include="bin\Release\EloBuddy.dll" />
+    <Content Include="bin\Release\EloBuddy.Sandbox.dll" />
+    <Content Include="bin\Release\EloBuddy.SDK.dll" />
+    <Content Include="bin\Release\LeagueSharp.Common.dll" />
+    <Content Include="bin\Release\LeagueSharp.Data.dll" />
+    <Content Include="bin\Release\LeagueSharp.dll" />
+    <Content Include="bin\Release\LeagueSharp.SDKEx.dll" />
+    <Content Include="bin\Release\Newtonsoft.Json.dll" />
+    <Content Include="bin\Release\PortAIO.Common.dll" />
+    <Content Include="bin\Release\PortAIO.Common.pdb" />
+    <Content Include="bin\Release\SharpDX.Direct3D9.dll" />
+    <Content Include="bin\Release\SharpDX.dll" />
+    <Content Include="bin\Release\SharpDX.XInput.dll" />
     <Content Include="Core\AIO Ports\OneKeyToWin_AIO_Sebby\Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -7035,6 +7054,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\x86\Debug\" />
+    <Folder Include="bin\x86\Release\" />
     <Folder Include="Core\Champion Ports\Diana\ReformedAIO\" />
     <Folder Include="Core\Champion Ports\Gnar\ReformedAIO\" />
   </ItemGroup>
