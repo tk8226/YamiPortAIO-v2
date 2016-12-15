@@ -124,7 +124,7 @@ namespace ARAMDetFull
         {
 
         };
-        public static AIHeroClient player = ObjectManager.Player;
+        public static Obj_AI_Hero player = ObjectManager.Player;
 
         public static Obj_HQ fromNex = null;
 

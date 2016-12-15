@@ -73,6 +73,9 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DeathWalker">
+      <HintPath>..\YamiPortAIO-Common\bin\Release\DeathWalker.dll</HintPath>
+    </Reference>
     <Reference Include="EloBuddy">
       <HintPath>C:\Users\Administrator\AppData\Roaming\EloBuddy\Addons\Libraries\EloBuddy.dll</HintPath>
     </Reference>
@@ -82,6 +85,18 @@
     </Reference>
     <Reference Include="EloBuddy.SDK">
       <HintPath>C:\Users\Administrator\AppData\Roaming\EloBuddy\Addons\Libraries\EloBuddy.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="LeagueSharp">
+      <HintPath>..\YamiPortAIO-Common\bin\Release\LeagueSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LeagueSharp.Common">
+      <HintPath>..\YamiPortAIO-Common\bin\Release\LeagueSharp.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="LeagueSharp.Data">
+      <HintPath>..\YamiPortAIO-Common\bin\Release\LeagueSharp.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="LeagueSharp.SDKEx">
+      <HintPath>..\YamiPortAIO-Common\bin\Release\LeagueSharp.SDKEx.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -7761,6 +7776,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
